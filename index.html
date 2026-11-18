@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#111310" />
+  <meta name="description" content="НЕ СЛОЖНО — YouTube-канал о технологиях, привычках и идеях, которые помогают разобраться в мире." />
+  <title>НЕ СЛОЖНО — разберёмся вместе</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="НЕ СЛОЖНО — на главную">
+        <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+        <span>НЕ СЛОЖНО<span class="brand-dot">.</span></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Открыть меню" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+      <nav class="main-nav" aria-label="Главная навигация">
+        <a href="#videos">Видео</a>
+        <a href="#about">О канале</a>
+        <a href="#topics">Темы</a>
+      </nav>
+      <a class="header-cta" href="https://www.youtube.com/@neslozhno" target="_blank" rel="noreferrer">
+        Подписаться <span aria-hidden="true">↗</span>
+      </a>
+    </header>
+
+    <main id="top">
+      <section class="hero section-wrap">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="live-dot"></span> YouTube-канал для любопытных</div>
+          <h1>Мир сложный.<br />Понять его — <span>не сложно.</span></h1>
+          <p class="hero-description">Разбираем технологии, привычки и большие идеи простым языком. Без занудства — только то, что действительно пригодится.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#videos"><span class="play-icon" aria-hidden="true">▶</span> Смотреть видео</a>
+            <a class="text-link" href="#about">Познакомиться <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="social-proof">
+            <div class="avatar-stack" aria-hidden="true"><span>А</span><span>М</span><span>И</span><span>+</span></div>
+            <p><strong>Уже 48 000+</strong><br />смотрят и разбираются</p>
+          </div>
+        </div>
+
+        <div class="hero-art" aria-label="Иллюстрация к выпуску о том, как работает искусственный интеллект">
+          <div class="art-topline"><span>ВЫПУСК № 042</span><span>8 МИНУТ, ЧТОБЫ ПОНЯТЬ</span></div>
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="art-spark spark-one">✳</div><div class="art-spark spark-two">✳</div>
+          <div class="brain-shape"><div class="brain-core">AI</div><span class="brain-node node-a">01</span><span class="brain-node node-b">?</span><span class="brain-node node-c">∞</span></div>
+          <div class="art-caption"><span class="caption-kicker">БОЛЬШАЯ ИДЕЯ</span><strong>Как думает<br />искусственный интеллект?</strong><span class="caption-play">▶</span></div>
+          <div class="art-index">01 <span>/ 03</span></div>
+        </div>
+        <div class="hero-bottom-note"><span class="note-line"></span> СЛОЖНОЕ СТАНОВИТСЯ ПОНЯТНЫМ</div>
+      </section>
+
+      <section class="video-section section-wrap" id="videos">
+        <div class="section-heading">
+          <div><div class="section-kicker">СНАЧАЛА — САМОЕ ИНТЕРЕСНОЕ</div><h2>Новые мысли,<br class="mobile-break" /> короткий формат<span>.</span></h2></div>
+          <a class="all-videos-link" href="https://www.youtube.com/@neslozhno/videos" target="_blank" rel="noreferrer">Все видео на YouTube <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="filter-row" role="group" aria-label="Фильтр видео по теме">
+          <button class="filter-chip is-active" data-filter="all" type="button">Все видео <span>06</span></button>
+          <button class="filter-chip" data-filter="tech" type="button">Технологии</button>
+          <button class="filter-chip" data-filter="mind" type="button">Мышление</button>
+          <button class="filter-chip" data-filter="life" type="button">На каждый день</button>
+        </div>
+        <div class="video-grid">
+          <article class="video-card" data-category="tech">
+            <a class="thumbnail thumb-ai" href="https://www.youtube.com/results?search_query=как+работает+искусственный+интеллект+простыми+словами" target="_blank" rel="noreferrer" aria-label="Смотреть: Нейросеть — не мозг. Тогда что это?"><span class="thumb-label">ТЕХНОЛОГИИ</span><div class="thumb-art ai-art"><span class="ai-sun">✳</span><span class="ai-type">НЕЙРО<br />СЕТЬ</span><span class="ai-orb"></span></div><span class="duration">08:24</span><span class="thumb-play">▶</span></a>
+            <div class="video-meta"><div><span class="video-date">НОВЫЙ ВЫПУСК · 12 ИЮНЯ</span><h3>Нейросеть — не мозг. Тогда что это?</h3><p>Объясняем AI без магии и сложных слов.</p></div><span class="card-arrow" aria-hidden="true">↗</span></div>
+          </article>
+          <article class="video-card" data-category="mind">
+            <a class="thumbnail thumb-focus" href="https://www.youtube.com/results?search_query=почему+мы+откладываем+дела+простое+объяснение" target="_blank" rel="noreferrer" aria-label="Смотреть: Почему мы откладываем дела на потом"><span class="thumb-label">МЫШЛЕНИЕ</span><div class="thumb-art focus-art"><span class="focus-sun">☼</span><span class="focus-type">ПОТОМ<br /><i>≠</i> НИКОГДА</span><span class="focus-sticker">ЗНАКОМО?</span></div><span class="duration">06:51</span><span class="thumb-play">▶</span></a>
+            <div class="video-meta"><div><span class="video-date">5 ИЮНЯ · 14 203 ПРОСМОТРА</span><h3>Почему мы откладываем дела на потом</h3><p>Прокрастинация — не лень. Вот почему.</p></div><span class="card-arrow" aria-hidden="true">↗</span></div>
+          </article>
+          <article class="video-card" data-category="life">
+            <a class="thumbnail thumb-sleep" href="https://www.youtube.com/results?search_query=как+улучшить+сон+простые+советы+почему+важен+сон" target="_blank" rel="noreferrer" aria-label="Смотреть: Сон — это не перезагрузка"><span class="thumb-label">НА КАЖДЫЙ ДЕНЬ</span><div class="thumb-art sleep-art"><span class="moon">◒</span><span class="sleep-type">ЗАЧЕМ<br /><i>НАМ</i><br />СОН?</span><span class="sleep-star">✦</span></div><span class="duration">09:12</span><span class="thumb-play">▶</span></a>
+            <div class="video-meta"><div><span class="video-date">29 МАЯ · 21 887 ПРОСМОТРОВ</span><h3>Сон — это не просто перезагрузка</h3><p>Что на самом деле происходит, пока мы спим.</p></div><span class="card-arrow" aria-hidden="true">↗</span></div>
+          </article>
+          <article class="video-card" data-category="tech">
+            <a class="thumbnail thumb-data" href="https://www.youtube.com/results?search_query=что+такое+облачное+хранилище+простыми+словами" target="_blank" rel="noreferrer" aria-label="Смотреть: Где живут наши фотографии в облаке"><span class="thumb-label">ТЕХНОЛОГИИ</span><div class="thumb-art data-art"><span class="data-cloud">☁</span><span class="data-type">ГДЕ<br />МОИ<br /><i>ФОТО?</i></span><span class="data-pixel">.jpg</span></div><span class="duration">07:06</span><span class="thumb-play">▶</span></a>
+            <div class="video-meta"><div><span class="video-date">22 МАЯ · 9 642 ПРОСМОТРА</span><h3>Где живут наши фотографии в облаке</h3><p>И почему это облако совсем не облако.</p></div><span class="card-arrow" aria-hidden="true">↗</span></div>
+          </article>
+          <article class="video-card" data-category="mind">
+            <a class="thumbnail thumb-habit" href="https://www.youtube.com/results?search_query=как+формируются+привычки+наука+простое+объяснение" target="_blank" rel="noreferrer" aria-label="Смотреть: Как привычка становится привычкой"><span class="thumb-label">МЫШЛЕНИЕ</span><div class="thumb-art habit-art"><span class="habit-loop">↻</span><span class="habit-type">МАЛЕНЬКИЙ<br /><i>ШАГ</i></span><span class="habit-number">ДЕНЬ 01</span></div><span class="duration">05:48</span><span class="thumb-play">▶</span></a>
+            <div class="video-meta"><div><span class="video-date">15 МАЯ · 18 390 ПРОСМОТРОВ</span><h3>Как привычка становится привычкой</h3><p>Маленький механизм, который меняет всё.</p></div><span class="card-arrow" aria-hidden="true">↗</span></div>
+          </article>
+          <article class="video-card" data-category="life">
+            <a class="thumbnail thumb-money" href="https://www.youtube.com/results?search_query=как+работают+проценты+на+вкладе+простыми+словами" target="_blank" rel="noreferrer" aria-label="Смотреть: Сложный процент — деньги делают деньги"><span class="thumb-label">НА КАЖДЫЙ ДЕНЬ</span><div class="thumb-art money-art"><span class="money-coin">€</span><span class="money-type">ДЕНЬГИ<br /><i>РАСТУТ?</i></span><span class="money-chart">↗</span></div><span class="duration">10:03</span><span class="thumb-play">▶</span></a>
+            <div class="video-meta"><div><span class="video-date">8 МАЯ · 31 104 ПРОСМОТРА</span><h3>Сложный процент: деньги делают деньги</h3><p>Одна идея, которая меняет взгляд на накопления.</p></div><span class="card-arrow" aria-hidden="true">↗</span></div>
+          </article>
+        </div>
+        <div class="videos-bottom"><span>НОВЫЙ ВЫПУСК — КАЖДУЮ НЕДЕЛЮ</span><a href="https://www.youtube.com/@neslozhno/videos" target="_blank" rel="noreferrer">Смотреть ещё на YouTube <span>↗</span></a></div>
+      </section>
+
+      <section class="about-section" id="about">
+        <div class="section-wrap about-inner">
+          <div class="about-art"><div class="about-circle"><span>?</span></div><span class="about-star star-left">✳</span><span class="about-star star-right">✳</span><span class="about-note">ВОПРОСЫ — ЭТО<br />ХОРОШО.</span></div>
+          <div class="about-copy"><div class="section-kicker">ПРИВЕТ, Я АЛЕКС</div><h2>Люблю задавать вопросы.<br /><span>И находить ответы.</span></h2><p>Когда-то я понял, что сложные темы часто кажутся сложными только потому, что их объясняют сложными словами. На этом канале я разбираюсь сам — и делюсь тем, что понял.</p><p>С любопытством, хорошими источниками и без ощущения, что ты что-то пропустил в школе.</p><a class="about-link" href="https://www.youtube.com/@neslozhno" target="_blank" rel="noreferrer">Больше обо мне на YouTube <span>↗</span></a></div>
+        </div>
+      </section>
+
+      <section class="topics-section section-wrap" id="topics">
+        <div class="section-heading topics-heading"><div><div class="section-kicker">ЧТО РАЗБИРАЕМ</div><h2>Любопытство —<br />тоже навык<span>.</span></h2></div><p>Выбирай тему, с которой<br />хочется разобраться сегодня.</p></div>
+        <div class="topic-list">
+          <a href="#videos" data-topic="tech"><span class="topic-number">01</span><span class="topic-icon">⌘</span><span class="topic-name">Технологии и будущее</span><span class="topic-detail">От нейросетей до космоса</span><span class="topic-arrow">↗</span></a>
+          <a href="#videos" data-topic="mind"><span class="topic-number">02</span><span class="topic-icon">◉</span><span class="topic-name">Мозг и привычки</span><span class="topic-detail">Почему мы такие, какие есть</span><span class="topic-arrow">↗</span></a>
+          <a href="#videos" data-topic="life"><span class="topic-number">03</span><span class="topic-icon">✳</span><span class="topic-name">Наука в жизни</span><span class="topic-detail">Простые ответы на большие «почему»</span><span class="topic-arrow">↗</span></a>
+        </div>
+      </section>
+
+      <section class="subscribe-section section-wrap">
+        <div class="subscribe-card"><div class="subscribe-decoration" aria-hidden="true">✳</div><div class="section-kicker">ХОРОШАЯ ИДЕЯ НА БУДУЩЕЕ</div><h2>Осталось только<br />нажать <span>«подписаться».</span></h2><p>Один новый выпуск в неделю. И чуть больше ясности в голове.</p><a class="button button-dark" href="https://www.youtube.com/@neslozhno?sub_confirmation=1" target="_blank" rel="noreferrer">Подписаться на YouTube <span aria-hidden="true">↗</span></a><div class="subscribe-footnote">БЕСПЛАТНО. БЕЗ СПАМА. ПРОСТО ХОРОШИЕ ВИДЕО.</div></div>
+      </section>
+    </main>
+
+    <footer class="site-footer section-wrap"><a class="brand" href="#top"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span>НЕ СЛОЖНО<span class="brand-dot">.</span></span></a><span class="footer-note">Разобраться — уже половина дела.</span><div class="footer-links"><a href="https://www.youtube.com/@neslozhno" target="_blank" rel="noreferrer">YouTube ↗</a><a href="#top">Наверх ↑</a></div><span class="copyright">© 2026 НЕ СЛОЖНО</span></footer>
+  </div>
+</body>
+</html>
